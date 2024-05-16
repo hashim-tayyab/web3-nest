@@ -1,0 +1,22 @@
+node_modules/
+dist/
+
+# IDE and Editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.launch
+*.settings/
+
+# Testing frameworks
+coverage/
+test.output/
+
+# Environment variables
+.env
+
+# Miscellaneous
+*.log
+npm-debug.log
+yarn-error.log
+.DS_Store
