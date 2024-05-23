@@ -92,7 +92,6 @@ export class TransactionsService implements OnModuleInit{
     const transferUrl = `https://api.etherscan.io/api?module=account&action=tokentx&address=0xe6d4f82239ab9a2d3cfcC185FB4753899880CB74&startblock=19930807&sort=asc&apikey=${process.env.ETHERSCAN_API_KEY}`
 
     const url = `https://api.etherscan.io/api?module=${module}&action=${action}&txhash=${txhash}&apikey=${process.env.ETHERSCAN_API_KEY}`;
-    // const privateKey = '0x59fb9e925770dd9464726fdcce16e7bb4ad13f1154b1d8e6c04be81d5272eaca'
     const minterAccount = sepoliaweb3.eth.accounts.privateKeyToAccount(process.env.WALLET_PRIVATE_KEY)
 
     try {
