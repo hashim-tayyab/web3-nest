@@ -225,7 +225,7 @@
 			},
 			{
 				"internalType": "uint256",
-				"name": "amount",
+				"name": "usdtAmount",
 				"type": "uint256"
 			},
 			{

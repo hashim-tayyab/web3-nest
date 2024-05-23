@@ -16,6 +16,12 @@ export class TransactionsController {
   verifyTransactionAndMint(@Param('txhash') txhash:string) { 
     return this.transactionsService.verifyTransactionAndMint(txhash);
   }
+
+  @Get('getbalance/:address')
+  getBalance(@Param('address') txhash:string){
+    return this.transactionsService.getBalance(txhash);
+
+  }
   
 
   @Get()
